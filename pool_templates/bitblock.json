@@ -3,7 +3,7 @@
     "pool"    : {
       "name"      : "BitBlock.pro",
       "url"       : "https://bitblock.pro",
-      "fee"       : 1,
+      "fee"       : 0.9,
       "type"      : "PPLNS"
     }
   },
@@ -11,12 +11,22 @@
     "coin"    : "RXD",
     "servers" : [
       {
-        "geo"     : "GERMANY",
+        "geo"     : "GERMANY Diff 2+",
+        "urls"    : [ "rxd.bitblock.pro:1010" ],
+        "ssl_urls": [ "rxd.bitblock.pro:2010" ]
+      },
+      {
+        "geo"     : "GERMANY Diff 6+",
         "urls"    : [ "rxd.bitblock.pro:1011" ],
         "ssl_urls": [ "rxd.bitblock.pro:2011" ]
       },
       {
-        "geo"     : "USA",
+        "geo"     : "USA Diff 2+",
+        "urls"    : [ "rxd-us.bitblock.pro:1010" ],
+        "ssl_urls": [ "rxd-us.bitblock.pro:2010" ]
+      },
+      {
+        "geo"     : "USA Diff 6+",
         "urls"    : [ "rxd-us.bitblock.pro:1011" ],
         "ssl_urls": [ "rxd-us.bitblock.pro:2011" ]
       }
